@@ -1,25 +1,29 @@
 <aside class="menu">
-    <div class="profile">
-        <div class="avatar">
-             <a href="/" alt="avatar">
-                <img src="/assets/img/avatar.jpg" alt="avatar" onerror="this.style.display='none'"> 
-            </a>
+    <div class="menu-top">
+        <div class="profile">
+            <div class="avatar">
+                <a href="/" alt="avatar">
+                    <img src="/assets/img/avatar.jpg" alt="avatar" onerror="this.style.display='none'"> 
+                </a>
+            </div>
+            <h3>{{ site.data.menu.menu_title }}</h3>
+            <p>{{ site.data.menu.menu_subtitle }}</p>
         </div>
-        <h3>{{ site.data.menu.menu_title }}</h3>
-        <p>{{ site.data.menu.menu_subtitle }}</p>
-    </div>
 
-    <ul class="navigation">
-        {% for menu_item in site.data.menu.menu_pages %}
-        <li> 
-            <a href="{{ menu_item.url }}"> 
-                <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"> </i> 
-                <span>{{ menu_item.title }}</span>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-    <!-- {% for section in site.sections %}
-    <li><a href="{{ section.url }}">{{ section.title }}</a></li>
-    {% endfor %} -->
+        <ul class="navigation">
+            {% for menu_item in site.data.menu.menu_pages %}
+            <li> 
+                <a href="{{ menu_item.url }}"> 
+                    <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"> </i> 
+                    <span>{{ menu_item.title }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="menu-contact">
+        <a href="https://twitter.com/ItsMeAga1n">
+            T
+        </a>
+    </div>
 </aside>

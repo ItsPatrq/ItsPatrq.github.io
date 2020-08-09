@@ -8,6 +8,11 @@ $space-between: 40px;
     left: 0;
     height: 100%;
     overflow-y: auto;
+
+    &-top {
+
+    }
+
     .profile{ 
         margin-top: $space-between;
         p {
@@ -71,6 +76,59 @@ $space-between: 40px;
                 padding-top:8px;
                 text-decoration-line:none;
             }
+        }
+    }
+    &-contact {
+        box-sizing:border-box;
+        color:rgb(51, 51, 51);
+        display:flex;
+        flex-wrap:wrap;
+        font-family:"Source Sans Pro", "Microsoft Yahei", sans-serif;
+        font-size:19.2px;
+        font-weight:400;
+        height:36px;
+        justify-content:space-around;
+        line-height:28px;
+        margin-bottom:25.6px;
+        margin-left:24px;
+        margin-right:24px;
+        margin-top:24px;
+        text-align:left;
+        text-size-adjust:100%;
+        width:162px;
+        -webkit-box-direction:normal;
+        -webkit-font-smoothing:antialiased;
+        -webkit-tap-highlight-color:black;
+        a {
+            background-color:rgba(0, 0, 0, 0);
+            box-sizing:border-box;
+            color:rgba(255, 255, 255, 0.5);
+            cursor:pointer;
+            display:block;
+            font-family:"Source Sans Pro", "Microsoft Yahei", sans-serif;
+            font-size:19.2px;
+            font-weight:400;
+            height:28px;
+            line-height:28px;
+            margin-bottom:8px;
+            margin-left:1.6px;
+            margin-right:4px;
+            margin-top:0px;
+            text-align:left;
+            text-decoration-color:rgba(255, 255, 255, 0.5);
+            text-decoration-line:none;
+            text-decoration-style:solid;
+            text-size-adjust:100%;
+            transition-delay:0s;
+            transition-duration:0.35s;
+            transition-property:color;
+            transition-timing-function:ease-in-out;
+            user-select:none;
+            width:18px;
+            -webkit-box-direction:normal;
+            -webkit-font-smoothing:antialiased;
+            -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+
         }
     }
 }

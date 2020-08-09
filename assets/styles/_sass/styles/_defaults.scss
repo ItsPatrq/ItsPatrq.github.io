@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    color: $base-text-color;
+    color: $base-white;
     font-family: 'Roboto', sans-serif;
 
 }
 main {
     background-color: $main-bg-color;
+    color: black;
     float: right;
     width: 74%;
     min-height: 300px;
@@ -14,9 +15,11 @@ main {
     margin: auto;
 }
 aside {
-    background-color: $aside-bg-color;
+    background-image: linear-gradient(141deg, $aside-bg-color 0%, $base-blue-color 45%, $aside-bg-color 80%);
     float: left;
-    width: 25%;
+    width: 20%;
+    min-width: 110px;
+    max-width: 250px;
     min-height: 300px;
 }
 footer {
