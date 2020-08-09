@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    color: $base-text-color;
+    font-family: 'Roboto', sans-serif;
+
+}
+main {
+    background-color: $main-bg-color;
+    float: right;
+    width: 74%;
+    min-height: 300px;
+    max-width: 1100px;
+    margin: auto;
+}
+aside {
+    background-color: $aside-bg-color;
+    float: left;
+    width: 25%;
+    min-height: 300px;
+}
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,17 @@
+---
+layout: default
+title: Home
+---
+<div class="box-container">
+    {% for menu_item in site.data.menu.menu_pages %}
+        {% if menu_item.showOnHome %}
+            <a href="{{ menu_item.url }}">
+                <div class="box dev">
+                    <p>
+                        {{ menu_item.title }}
+                    </p>
+                </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>

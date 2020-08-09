@@ -1,0 +1,22 @@
+$box-min-size: 400px;
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box {
+    background-color: $base-text-color;
+    min-width: $box-min-size;
+    min-height: $box-min-size;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid $border-dark;
+    p {
+        font-size: 64px;
+        color:rgb(252, 252, 252);
+    }
+}

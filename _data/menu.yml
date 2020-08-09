@@ -1,0 +1,19 @@
+menu_title: ItsMeAga1n
+menu_subtitle: I program some stuff and make music in free time.
+menu_pages:
+
+- title: HOME
+  url: /
+  showOnHome: False
+
+- title: DEV
+  url: /dev.html
+  showOnHome: True
+
+- title: MUSIC
+  url: /music.html
+  showOnHome: True
+
+- title: ABOUT
+  url: /about/
+  showOnHome: False
