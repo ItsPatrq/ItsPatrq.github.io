@@ -14,7 +14,7 @@
             {% for menu_item in site.data.menu.menu_pages %}
             <li> 
                 <a href="{{ menu_item.url }}"> 
-                    <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"> </i> 
+                    <!-- <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"> </i>  -->
                     <span>{{ menu_item.title }}</span>
                 </a>
             </li>
@@ -22,8 +22,11 @@
         </ul>
     </div>
     <div class="menu-contact">
-        <a href="https://twitter.com/ItsMeAga1n">
-            T
+        {% for contact in site.data.menu.menu_contacts %}
+
+        <a href="{{ contact.url }}" target="{{ contact.target }}">
+            <i class="{{ contact.faicon }}"></i>
         </a>
+        {% endfor %}
     </div>
 </aside>

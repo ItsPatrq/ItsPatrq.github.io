@@ -17,3 +17,14 @@ menu_pages:
 - title: ABOUT
   url: /about/
   showOnHome: False
+
+menu_contacts:
+- faicon: fab fa-github-alt
+  url: https://github.com/ItsMeaga1n
+  target: _blank
+- faicon: fab fa-twitter
+  url: https://twitter.com/ItsMeAga1n
+  target: _blank
+- faicon: fas fa-envelope
+  url: javascript:window.open('mailto:' + ['bieszke.patryk','gmail.com'].join('@'))
+  target: 
