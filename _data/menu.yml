@@ -1,6 +1,7 @@
 menu_title: Patryk Bieszke
 menu_headline: software engineer & music producer
-menu_intro: Hi, I'm Patryk! Welcome to my personal website! Ble ble Ble ble Ble ble Ble ble Ble ble 
+menu_intro: Hi, I'm Patryk! Welcome to my personal website where you can find updates on my most recent projects. 
+show_menu_on_category_select: False
 menu_pages:
 
 # - title: HOME

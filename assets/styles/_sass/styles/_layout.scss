@@ -13,6 +13,10 @@ main {
     position: fixed;
     left: $menu-width;
     top: 0;
+    &.no-menu {
+        width: 100%;
+        left: 0;
+    }
 }
 footer {
     display: inline-block;
