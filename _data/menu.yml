@@ -1,21 +1,24 @@
-menu_title: ItsMeAga1n
-menu_subtitle: I program some stuff and make music in free time.
+menu_title: Patryk Bieszke
+menu_headline: software engineer & music producer
+menu_intro: Hi, I'm Patryk! Welcome to my personal website! Ble ble Ble ble Ble ble Ble ble Ble ble 
 menu_pages:
 
-- title: HOME
-  url: /
-  showOnHome: False
+# - title: HOME
+#   url: /
+#   showOnHome: False
 
 - title: DEV
   url: /dev.html
   showOnHome: True
+  image_url: assets/img/dev.jpg
 
 - title: MUSIC
   url: /music.html
   showOnHome: True
+  image_url: assets/img/music.jpg
 
 - title: ABOUT
-  url: /about/
+  url: /about.html
   showOnHome: False
 
 menu_contacts:
