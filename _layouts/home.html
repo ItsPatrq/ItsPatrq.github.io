@@ -15,7 +15,7 @@
     {% endif %}
         <div class="home">
             {% for menu_item in site.data.menu.menu_pages %}
-                {% if menu_item.showOnHome %}
+                {% if menu_item.show_on_home %}
                     <a href="{{ menu_item.url }}" >
                         <div class="category" style="background-image: url('{{ menu_item.image_url }}')"></div>
                         <p>
