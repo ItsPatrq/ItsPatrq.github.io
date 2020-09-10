@@ -5,6 +5,9 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/styles/index.css">
     <script src="https://kit.fontawesome.com/79c31398dc.js" crossorigin="anonymous"></script>
+    <script>
+      {% include home.js %}
+    </script>
   </head>
   <body>
     {% if site.data.menu.show_menu_on_category_select %}
@@ -16,7 +19,7 @@
         <div class="home">
             {% for menu_item in site.data.menu.menu_pages %}
                 {% if menu_item.show_on_home %}
-                    <a href="{{ menu_item.url }}" >
+                    <a href="{{ menu_item.url }}" class="category-container">
                         <div class="category" style="background-image: url('{{ menu_item.image_url }}')"></div>
                         <p>
                             {{ menu_item.title }}

@@ -3,30 +3,28 @@ menu_headline: software engineer & music producer
 menu_intro: Hi, I'm Patryk! Welcome to my personal website where you can find updates on my most recent projects. 
 show_menu_on_category_select: False
 minimal_menu: True
-avatar_url: https://pbs.twimg.com/profile_images/1292545468245958657/22dUzrKo_400x400.jpg
+menu_logo: https://pbs.twimg.com/profile_images/1292545468245958657/22dUzrKo_400x400.jpg
 
 menu_pages:
-
-# - title: HOME
-#   url: /
-#   show_on_home: False
-
 - title: DEV
   url: /dev.html
   show_on_home: True
   image_url: assets/img/dev.jpg
   icon_name: fas fa-cogs
+  category: dev
 
 - title: MUSIC
   url: /music.html
   show_on_home: True
   image_url: assets/img/music.jpg
   icon_name: fas fa-music
+  category: music
 
 - title: ABOUT
   url: /about.html
   show_on_home: False
   icon_name: fas fa-address-card
+  category: about
 
 menu_contacts:
 - faicon: fab fa-github-alt
