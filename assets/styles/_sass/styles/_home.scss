@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
-        border: 3px solid $base-white;
+        border: 1px solid $base-white;
         &:hover {
             .category {
                 opacity: 0.25;
@@ -27,7 +27,7 @@
         .category {
             display: flex;
             flex: 0 100%;
-            opacity: 0.8;
+            opacity: 0.7;
             height: 100%;
             background-repeat: no-repeat;
             background-size: cover;
