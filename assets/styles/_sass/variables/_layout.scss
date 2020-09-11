@@ -1,4 +1,4 @@
-$content-width: calc(100% - #{$menu-width});
+$content-width-desktop: calc(100% - #{$menu-size});
 $tablet-width: 768px;
 $desktop-width: 1024px;
 @mixin tablet {

@@ -9,9 +9,16 @@
     height: 100%;
     overflow-y: auto;
     float: left;
-    width: $menu-width;
+    width: $menu-size;
     box-sizing: border-box;
     border-right: 2px solid $p_dark;
+    
+    @include mobile {
+        flex-direction: row;
+        width: 100%;
+        height: $menu-size;
+    }
+    
     &-top {
         box-sizing: border-box;
         height: 100%;
@@ -21,8 +28,17 @@
     &-top {
         padding-left: 3px;
         padding-right: 3px;
+        @include mobile {
+            padding: 3px 10px 3px 10px;
+        }
     }
+
     ul {
+        @include mobile {
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+        }
         padding-left: 0px;
         li {
             display: flex;
@@ -41,6 +57,11 @@
                 :hover {
                     text-decoration: underline;
                     font-weight: 700;
+                }
+                @include mobile {
+                    height: calc(#{$menu-size} - 10px);
+                    width: $menu-size;
+                    font-size: 30px;
                 }
             }
         }
