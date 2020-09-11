@@ -60,7 +60,8 @@
                 }
                 @include mobile {
                     height: calc(#{$menu-size} - 10px);
-                    width: calc(#{$menu-size} - 10px);
+                    width: $menu-size;
+                    font-size: 30px;
                 }
             }
         }
