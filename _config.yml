@@ -13,22 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Patryk Bieszke
-email: bieszke.patryk@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ItsMeaga1n
-github_username:  ItsMeaga1n
 
 # Build settings
 markdown: kramdown
 remote_theme: ItsMeaga1n/minimal-categorized
 plugins:
   - jekyll-feed
+
 sass:
   sass_dir: assets/styles/_sass
   style: compressed
@@ -43,3 +34,18 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+title: ItsMeAga1n
+tagline: Software engineering and music production
+description: Software engineering and music production
+email: bieszke.patryk@gmail.com
+# description: >- 
+#   This website is dedicated to have interesting informations about
+#   software engineering and music production, that I come across
+#   on my daily basis.
+baseurl: "" 
+url: "https://itsmeaga1n.github.io"
+author: itsmeaga1n
+twitter:
+  username: itsmeaga1n
+  card: summary
+google_site_verification: _emT-O9I-GkOamqZE9uxCMLhxsBV1FVcMdMFX_B5VOY
