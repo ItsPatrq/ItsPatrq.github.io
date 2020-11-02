@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating Jekyll template
+title: Creating Jekyll Template
 permalink: /jekyll-template.html
 category: dev
 summary: This is summary for my post! Here I'm posting about software engineering. You can find updates on projects I am working on as well as my writings devoted to the technical aspect. Here I'm posting about software engineering. You can find updates on projects I am working on as well as my writings devoted to the technical aspect.
