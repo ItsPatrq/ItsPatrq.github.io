@@ -3,7 +3,7 @@ menu_headline: software engineer & music producer
 menu_intro: Hi, I'm Patryk! Welcome to my personal website where you can find updates on my most recent projects. 
 show_menu_on_category_select: False
 minimal_menu: True
-menu_logo: https://pbs.twimg.com/profile_images/1292545468245958657/22dUzrKo_400x400.jpg
+menu_logo: assets/img/avatar.png
 
 menu_pages:
 - title: DEV
