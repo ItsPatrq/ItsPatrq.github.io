@@ -36,15 +36,14 @@ sass:
 #   - vendor/ruby/
 title: ItsMeAga1n
 tagline: Software engineering and music production
-description: Software engineering and music production
 email: bieszke.patryk@gmail.com
-# description: >- 
-#   This website is dedicated to have interesting informations about
-#   software engineering and music production, that I come across
-#   on my daily basis.
+description: >- 
+  This website is dedicated to have interesting informations about
+  software engineering and music production, that I come across
+  on my daily basis.
 baseurl: "" 
 url: "https://itsmeaga1n.github.io"
-author: itsmeaga1n
+author: Patryk Bieszke
 twitter:
   username: itsmeaga1n
   card: summary

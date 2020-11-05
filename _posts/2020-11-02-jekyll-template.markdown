@@ -3,7 +3,7 @@ layout: post
 title: Creating Jekyll Template
 permalink: /jekyll-template.html
 category: dev
-summary: This is summary for my post! Here I'm posting about software engineering. You can find updates on projects I am working on as well as my writings devoted to the technical aspect. Here I'm posting about software engineering. You can find updates on projects I am working on as well as my writings devoted to the technical aspect.
+summary: Whenever I was building a website, I used some heavy high-tech libraries for that. Recently, I discovered a much more light-weight ways to create simple websites. In this post I will write about my experiences with <b>Jekyll</b>.
 ---
 
 I learned about [Jekyll](https://jekyllrb.com/) not long ago, but I was instantly fascinated by the way it allows creating good looking HTML blogs from plain .md files in an instance of a second. Planning to create a personal website using [GitHub Pages](https://pages.github.com/) I couldn't resist diving deeper into Jekyll and creating my own theme. It wasn't like it was a necessity, there are a lot of great looking templates available, but I wanted to see how they were made and how complicated was the process of it, and man, was it simple!

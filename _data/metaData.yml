@@ -1,2 +1,6 @@
 author: Patryk Bieszke
 avatar_url: assets/img/avatar.png
+cookies:
+  enabled: True
+  message: This website is using cookies to analyse traffic
+  agreeButtonText: Ok
