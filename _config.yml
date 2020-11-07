@@ -19,7 +19,7 @@ markdown: kramdown
 remote_theme: ItsMeaga1n/minimal-categorized
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
 sass:
   sass_dir: assets/styles/_sass
   style: compressed
