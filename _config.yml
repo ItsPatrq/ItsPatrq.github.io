@@ -41,7 +41,6 @@ description: >-
   This website is dedicated to have interesting informations about
   software engineering and music production, that I come across
   on my daily basis.
-baseurl: "" 
 url: "https://itsmeaga1n.github.io"
 author: Patryk Bieszke
 twitter:

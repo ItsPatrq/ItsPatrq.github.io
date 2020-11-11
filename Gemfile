@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minimal-categorized", "~> 0.0.14"
+gem "minimal-categorized", "~> 0.0.15"
 gem "jekyll-sitemap"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
