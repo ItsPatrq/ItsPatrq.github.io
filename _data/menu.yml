@@ -1,19 +1,13 @@
 menu_title: Patryk Bieszke
 menu_headline: software engineer & music producer
-menu_intro: Hi, I'm Patryk! Welcome to my personal website where you can find updates on my most recent projects. 
+menu_intro: Hi, I'm Patryk! Welcome to my personal website where you can find updates on my most recent projects.
 show_menu_on_category_select: False
 minimal_menu: True
 menu_logo: assets/img/avatar.png
 
 menu_pages:
-- title: Home
-  url: /
-  show_on_home: False
-  icon_name: fas fa-home
-  category: home
-
 - title: Software dev
-  url: /dev.html
+  url: /
   show_on_home: True
   image_url: assets/img/dev.jpg
   icon_name: fas fa-cogs
@@ -21,22 +15,13 @@ menu_pages:
   tooltip: software engineering stuff
   description: Here are my writings devoted to the software development
 
-- title: Music production
-  url: /music.html
-  show_on_home: True
-  image_url: assets/img/music.jpg
-  icon_name: fas fa-music
-  category: music
-  tooltip: music production stuff
-  description: Here are my writings devoted to the music production
-
 menu_contacts:
 - faicon: fab fa-github-alt
-  url: https://github.com/ItsMeaga1n
+  url: https://github.com/ItsPatrq
   target: _blank
-- faicon: fab fa-twitter
-  url: https://twitter.com/ItsMeAga1n
+- faicon: fab fa-linkedin-in
+  url: https://www.linkedin.com/in/patryk-bieszke-523137221
   target: _blank
 - faicon: fas fa-envelope
   url: javascript:window.open('mailto:' + ['bieszke.patryk','gmail.com'].join('@'))
-  target: 
+  target:
